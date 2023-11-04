@@ -80,6 +80,7 @@ ol {
   font-weight: 400;
   line-height: normal;
   font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
+  margin-bottom: 5px;
 }
 
 .content__list {
@@ -212,10 +213,6 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
-}
-
-.search-form__fieldset-title {
-  padding-bottom: 5px;
 }
 
 .search-form__checkbox-list {
