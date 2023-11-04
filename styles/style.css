@@ -224,9 +224,8 @@ ol {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
-  background-color: transparent;
   margin-right: 5px;
-  position: relative;
+  display: flex;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
@@ -238,11 +237,8 @@ ol {
   display: none;
   width: 15px;
   height: 15px;
-  margin: 0 auto;
+  margin: auto;
   background-color: #fff;
-  position: absolute;
-  left: 1px;
-  top: 1px;
 }
 
 .search-form__label:has(:focus-visible) {
