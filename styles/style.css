@@ -83,7 +83,7 @@ ol {
 
 .content__list {
   height: 290px;
-  overflow: hidden scroll;
+  overflow: auto;
   margin-top: 26px;
   position: relative;
   display: flex;
