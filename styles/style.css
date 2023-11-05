@@ -116,7 +116,7 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
-  text-underline-position: under;
+  /* text-underline-position: under; */
   text-decoration-thickness: 1px;
 }
 
@@ -153,7 +153,7 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  /* overflow: hidden; */
+  overflow: hidden;
   max-width: 100%;
 }
 
@@ -163,7 +163,7 @@ ol {
   padding-top: 6px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  /* overflow: hidden; */
+  overflow: hidden;
   max-width: 100%;
 }
 
